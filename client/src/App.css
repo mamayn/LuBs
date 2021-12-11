@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  margin:-10px;
+  padding:-10px;
+}
+
+
+.App-header {
+  background: url("C:\Users\admin\Desktop\Курсова.2.0\client\src\images\intro.jpg");
+  min-height: 10vh;
+  display: fixed;
+  align-items: right;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(241, 238, 238);
+  margin: 0 px;
+  width: 100%;
+}
+
+
+.intro__suptitle {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 72px;
+  color: #fff;
+}
+.intro__suptitle1 {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 48px;
+  color: #fff;
+}
+
+
+.btn {
+  vertical-align: top;
+  padding: 8px 30px;
+
+  border: 3px solid rgb(49, 0, 0);
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+.btn:hover {
+  background-color: rgb(134, 0, 0);
+  color: #333;
+}
+.Body{
+  margin:0px;
+  padding:0px;
+  background-color: rgb(110, 1, 1);
+  min-height: 100vh;
+  display: fixed;
+  align-items: right;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(241, 238, 238);
+}
+.hz{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.pubs{
+  font-size: 25px;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: brown;
+  border: 3px solid black;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.pubs h5 {
+  margin: 20px;
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  position: relative;
+
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.nav__link:hover {
+  color: #fce38a;
+}
+
+.nav__link:hover:after,
+.nav__link.active:after {
+  opacity: 1;
+}
+
